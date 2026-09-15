@@ -1,0 +1,26 @@
+# EATS dependencies. Install into the project venv:
+#   .venv\Scripts\python.exe -m pip install -r requirements.txt
+
+# --- data ---
+numpy
+pandas
+scikit-learn
+scipy
+
+# --- RL ---
+torch
+gymnasium
+stable-baselines3
+tensorboard
+
+# --- explainability ---
+shap
+
+# --- interface + figures ---
+streamlit
+matplotlib
+plotly
+
+# --- utilities ---
+gdown
+pytest
